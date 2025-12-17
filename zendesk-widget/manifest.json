@@ -1,0 +1,34 @@
+{
+  "name": "APManager Student Search",
+  "author": {
+    "name": "Ian - UDLA Tech",
+    "email": "ian@udla.edu.ec"
+  },
+  "version": "2.0.0",
+  "frameworkVersion": "2.0",
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "autoLoad": false,
+        "url": "assets/index.html"
+      },
+      "new_ticket_sidebar": {
+        "autoLoad": true,
+        "url": "assets/index.html"
+      }
+    }
+  },
+  "defaultLocale": "es",
+  "private": false,
+  "singleInstall": false,
+  "signedUrls": false,
+  "parameters": [
+    {
+      "name": "api_url",
+      "type": "url",
+      "required": true,
+      "default": "http://localhost:3000",
+      "secure": false
+    }
+  ]
+}

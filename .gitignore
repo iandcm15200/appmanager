@@ -1,17 +1,21 @@
 # Sesión sensible
 .apmanager-state.json
 .apmanager-state.*.json
+.credenciales.json
 
 # Dependencias
 node_modules/
-package-lock.json
+backend/node_modules/
 
 # Build y dist
 dist/
 build/
-*.js
+build-temp/
 *.js.map
 *.d.ts
+
+# Widget ZIP
+apmanager-student-search.zip
 
 # IDE y editores
 .vscode/

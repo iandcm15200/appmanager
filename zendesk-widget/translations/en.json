@@ -1,0 +1,52 @@
+{
+  "app": {
+    "name": "APManager Student Search"
+  },
+  "auth": {
+    "modal_title": "Microsoft Authentication",
+    "modal_description": "Enter your corporate credentials to continue",
+    "email_label": "Corporate Email",
+    "email_placeholder": "user@aplatam.com",
+    "password_label": "Password",
+    "password_placeholder": "••••••••",
+    "login_button": "Sign In with Microsoft",
+    "logging_in": "Authenticating...",
+    "logout_button": "Sign out"
+  },
+  "search": {
+    "header_title": "Student Search",
+    "status_searching": "Starting search...",
+    "status_searching_term": "Searching: {{term}}...",
+    "no_data": "No email or phone found in ticket"
+  },
+  "results": {
+    "student_id": "ID: {{id}}",
+    "email_label": "Email:",
+    "phone_label": "Phone:",
+    "program_label": "Program:",
+    "registration_label": "Registration:",
+    "status_label": "Status:",
+    "view_apmanager": "View in APManager",
+    "apply_tipificacion": "Apply Tipification",
+    "applying": "Applying...",
+    "completed": "Completed",
+    "no_name": "No name",
+    "no_data": "N/A"
+  },
+  "errors": {
+    "title": "No results found",
+    "message": "No results found for: {{term}}",
+    "retry_button": "Retry Search",
+    "auth_required": "Email and password are required",
+    "invalid_email": "Please enter a valid email",
+    "invalid_credentials": "Invalid credentials. Check your email and password.",
+    "search_error": "Error performing search",
+    "tipificacion_error": "Error applying tipification",
+    "init_error": "Error initializing application"
+  },
+  "notifications": {
+    "tipificacion_success": "Tipification applied successfully",
+    "tipificacion_error": "Error applying tipification",
+    "no_student_data": "No student data to tipify"
+  }
+}
