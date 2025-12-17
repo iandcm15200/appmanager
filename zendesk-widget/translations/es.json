@@ -1,0 +1,52 @@
+{
+  "app": {
+    "name": "Búsqueda de Estudiantes APManager"
+  },
+  "auth": {
+    "modal_title": "Autenticación Microsoft",
+    "modal_description": "Ingresa tus credenciales corporativas para continuar",
+    "email_label": "Email Corporativo",
+    "email_placeholder": "usuario@aplatam.com",
+    "password_label": "Contraseña",
+    "password_placeholder": "••••••••",
+    "login_button": "Iniciar Sesión con Microsoft",
+    "logging_in": "Autenticando...",
+    "logout_button": "Cerrar sesión"
+  },
+  "search": {
+    "header_title": "Búsqueda de Estudiante",
+    "status_searching": "Iniciando búsqueda...",
+    "status_searching_term": "Buscando: {{term}}...",
+    "no_data": "No se encontró email o teléfono en el ticket"
+  },
+  "results": {
+    "student_id": "ID: {{id}}",
+    "email_label": "Email:",
+    "phone_label": "Teléfono:",
+    "program_label": "Programa:",
+    "registration_label": "Matrícula:",
+    "status_label": "Estado:",
+    "view_apmanager": "Ver en APManager",
+    "apply_tipificacion": "Aplicar Tipificación",
+    "applying": "Aplicando...",
+    "completed": "Completado",
+    "no_name": "Sin nombre",
+    "no_data": "N/A"
+  },
+  "errors": {
+    "title": "No se encontraron resultados",
+    "message": "No se encontraron resultados para: {{term}}",
+    "retry_button": "Reintentar Búsqueda",
+    "auth_required": "Email y contraseña son requeridos",
+    "invalid_email": "Por favor ingresa un email válido",
+    "invalid_credentials": "Credenciales inválidas. Verifica tu email y contraseña.",
+    "search_error": "Error al realizar la búsqueda",
+    "tipificacion_error": "Error al aplicar tipificación",
+    "init_error": "Error al inicializar la aplicación"
+  },
+  "notifications": {
+    "tipificacion_success": "Tipificación aplicada exitosamente",
+    "tipificacion_error": "Error al aplicar tipificación",
+    "no_student_data": "No hay datos de estudiante para tipificar"
+  }
+}
